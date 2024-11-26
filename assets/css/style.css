@@ -33,13 +33,17 @@ p {
   font-weight: bold;
 }
 #navbar {
-  background: url("../img/header-background.jpg") no-repeat center center;
-  background-size: cover;
+  /* background: url("../img/header-background.jpg") no-repeat center center;
+  background-size: cover; */
+  /* margin-bottom: 3rem; */
 }
 /* Header */
 .section {
-  padding-top: 2rem;
+  padding-bottom: 2rem;
   /* margin-bottom: 2rem; */
+}
+#header .row {
+  margin-top: 5rem;
 }
 #header {
   background: url("../img/header-background.jpg") no-repeat center center;
@@ -56,6 +60,7 @@ p {
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
+  font-weight: bold;
 }
 .button:hover {
   background-color: var(--secondary);
@@ -65,7 +70,8 @@ p {
 }
 /* Main */
 /* Safety Tips */
-.safety-tips {
+.safety-tips,
+.teacher-resources {
   background-color: var(--light);
 }
 i {
