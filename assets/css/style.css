@@ -74,6 +74,16 @@ p {
 .teacher-resources {
   background-color: var(--light);
 }
-i {
+.fas {
   color: var(--primary);
+}
+
+/* Guideline Style */
+#ModalOne .modal-dialog {
+  margin-top: 5rem;
+  max-width: 1080px;
+}
+#ModalTwo .modal-dialog {
+  margin-top: 5rem;
+  max-width: 1080px;
 }
