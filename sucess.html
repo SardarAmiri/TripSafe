@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>TripSafe</title>
   </head>
-  <body>
+  <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top bg-dark">
       <div class="container">
@@ -51,7 +51,7 @@
       <div class="container py-5">
         <div class="row">
           <div class="col-12">
-            <h1>Report the incident</h1>
+            <h1>Success Report</h1>
           </div>
         </div>
       </div>
@@ -65,7 +65,7 @@
         <defs>
           <style>
             .cls-1 {
-              fill: #f3f6f9;
+              fill: #ffffff;
             }
           </style>
         </defs>
@@ -81,65 +81,18 @@
     <!-- Main -->
     <main>
       <!-- Report Incident  -->
-      <section id="report-incident" class="pb-4 bg-light">
+      <section">
         <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-md-8 form-container">
-              <h3 class="text-center mb-4">Report an Incident</h3>
-
-              <!-- Incident Report Form -->
-              <form id="incidentForm" action="sucess.html" method="GET">
-                <div class="mb-3">
-                  <label for="tripName" class="form-label">Trip Name</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="tripName"
-                    placeholder="Enter the name of the trip"
-                    required
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="incidentDate" class="form-label"
-                    >Date of Incident</label
-                  >
-                  <input
-                    type="date"
-                    class="form-control"
-                    id="incidentDate"
-                    required
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="incidentDetails" class="form-label"
-                    >Incident Details</label
-                  >
-                  <textarea
-                    class="form-control"
-                    id="incidentDetails"
-                    rows="4"
-                    placeholder="Describe the incident"
-                    required
-                  ></textarea>
-                </div>
-                <div class="mb-3">
-                  <label for="fileUpload" class="form-label"
-                    >Optional File Upload</label
-                  >
-                  <input type="file" class="form-control" id="fileUpload" />
-                </div>
-                <button type="submit" class="btn button w-100">
-                  Submit Report
-                </button>
-              </form>
-            </div>
-          </div>
+          <h3>
+              <strong>Thank you for your submission!</strong> Your incident
+              report has been received and will be addressed promptly.
+            </h3>
         </div>
       </section>
     </main>
+
     <!-- footer  -->
-    <!-- footer  -->
-    <footer id="footer" class="bg-dark text-white py-4">
+    <footer id="footer" class="bg-dark text-white py-4 mt-auto">
       <div class="container">
         <div class="row">
           <!-- Emergency Contact Details -->
