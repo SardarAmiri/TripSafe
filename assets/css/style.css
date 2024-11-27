@@ -10,7 +10,7 @@
 body {
   font-family: var(--font-family);
   margin: 0;
-  padding: 0;
+  padding-top: 58px;
   box-sizing: border-box;
 }
 
@@ -39,7 +39,7 @@ p {
 }
 /* Header */
 .section {
-  padding-bottom: 2rem;
+  padding-top: 5rem;
   /* margin-bottom: 2rem; */
 }
 #header .row {
@@ -90,8 +90,8 @@ p {
 
 /* Report Incident */
 
-#report-incident .container {
-  margin-top: 50px;
+.form-container {
+  margin-bottom: 50px;
 }
 #report-incident .form-container {
   background: #ffffff;
@@ -115,4 +115,19 @@ p {
   border: 1px solid #c3e6cb;
   border-radius: 5px;
   color: #155724;
+}
+
+/* footer */
+#social-icons a {
+  text-decoration: none;
+}
+#social-icons i {
+  font-size: 2rem;
+  color: var(--light);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#social-icons i:hover {
+  color: var(--primary);
 }
