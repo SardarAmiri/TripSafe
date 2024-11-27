@@ -18,7 +18,7 @@
   </head>
   <body>
     <!-- Navigation -->
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top bg-dark">
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
       <div class="container">
         <a class="navbar-brand logo" href="index.html">TripSafe</a>
         <button
@@ -35,7 +35,9 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#safety-tips">Tips and guideline</a>
@@ -44,7 +46,9 @@
               <a class="nav-link" href="#emergency-steps">Emergency steps</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="reportAndHelp.html">Report incident</a>
+              <a class="btn button ms-4" href="reportAndHelp.html"
+                >Report incident</a
+              >
             </li>
           </ul>
         </div>
@@ -460,6 +464,7 @@
               <div class="col-md-6">
                 <div class="text-center">
                   <img
+                    id="image"
                     src="assets/img/simple flowchart for handling medical emergencies during a school trip for students.png"
                     alt="Medical Emergency Flowchart"
                     class="img-fluid mb-3 shadow-sm"
@@ -469,6 +474,7 @@
               <div class="col-md-6">
                 <div class="text-center">
                   <img
+                    id="image"
                     src="assets/img/lost-student-flowchart.png"
                     alt="Lost Student Flowchart"
                     class="img-fluid shadow-sm"
@@ -500,7 +506,7 @@
           <!-- Emergency Contact Details -->
           <div class="col-md-4">
             <h5>Emergency Contact Details</h5>
-            <table class="table table-dark table-striped">
+            <table class="table table-light table-striped">
               <tbody>
                 <tr>
                   <td>Contact Person</td>
@@ -533,7 +539,7 @@
           <!-- Call to Action Button -->
           <div class="col-md-4 text-end">
             <h5>Report Incident</h5>
-            <a href="report-incident.html" class="btn button text-white"
+            <a href="reportAndHelp.html" class="btn button text-white"
               >Report Incident</a
             >
           </div>

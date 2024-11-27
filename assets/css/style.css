@@ -19,22 +19,29 @@ p {
   color: var(--light);
 }
 
+#image {
+  padding: 1rem;
+  shadow: 0 10 10px rgba(0, 0, 0.4, 0.3);
+}
 /* Navbar Style */
 
 #navbar a {
   color: white;
   font-weight: bold;
 }
-#navbar a:hover {
-  color: var(--secondary);
+/* #navbar a:hover {
+  color: var(--primary);
+} */
+#navbar .button:hover {
+  color: var(--dark);
 }
 .logo {
   font-size: 2rem;
   font-weight: bold;
 }
 #navbar {
-  /* background: url("../img/header-background.jpg") no-repeat center center;
-  background-size: cover; */
+  background: url("../img/header-background.jpg") no-repeat center center;
+  background-size: cover;
   /* margin-bottom: 3rem; */
 }
 /* Header */
@@ -64,10 +71,12 @@ p {
 }
 .button:hover {
   background-color: var(--secondary);
+  color: var(--dark);
 }
 .lead {
   line-height: 1.8;
 }
+
 /* Main */
 /* Safety Tips */
 .safety-tips,
@@ -130,4 +139,11 @@ p {
 }
 #social-icons i:hover {
   color: var(--primary);
+}
+#footer {
+  background: url("../img/header-background.jpg") no-repeat center center;
+  background-size: cover;
+}
+#footer .table-light * {
+  background-color: var(--primary);
 }
