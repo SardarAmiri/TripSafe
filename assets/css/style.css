@@ -60,6 +60,19 @@ p {
   background: url("../img/header-background.jpg") no-repeat center center;
   background-size: cover;
 }
+#button {
+  background-color: var(--primary);
+  color: var(--light);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+#button:hover {
+  background-color: var(--secondary);
+  color: var(--dark);
+}
 .button {
   background-color: var(--primary);
   color: var(--light);
@@ -71,7 +84,6 @@ p {
 }
 .button:hover {
   background-color: var(--secondary);
-  color: var(--dark);
 }
 .lead {
   line-height: 1.8;
